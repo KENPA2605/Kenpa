@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>formulario</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Quiz De Dragon Ball</h1>
+      <p> 
+      </p>
+    </header>
+    <main>
+      <form action="Vinipegar@gmail.com" method="post">
+        <fieldset>
+          <legend>Informações Pessoais</legend>
+          <label for="Email" ">Email (Obrigatório)</label>
+          <input type="email" id="email" name="email" placeholder="abc@gmail.com" required size="20">
+          <label for="name">NICK (Obrigatório)</label>
+  <input type="nome" id="name" name='text' placeholder="Kenpa" required size="20"></input>
+  <label for="age">Idade (Obrigatório) </label>
+  <input type="number" id="age" name="age" required placeholder="29" size="20" min="10" max="100"></input>
+      </fieldset>
+      <fieldset>
+        <legend>Quantos minutos Friezza diz faltar para explodir Namekusei</legend>
+        <input type="radio" id="10-minutos" name='5-minutos'></input>
+        <label for='10-minutos'>10 minutos</label>
+        <input type="radio" id="5-minutos" name='5-minutos'></input>
+        <label for='5-minutos'>5 minutos</label>
+        <input type="radio" id="7-minutos" name='5-minutos'></input>
+        <label for='7-minutos'>7 minutos</label>
+        <input type="radio" id="2-minutos" name='5-minutos'></input>
+        <label for='2-minutos'>2 minutos</label>
+      </fieldset>
+      <fieldset>
+        <legend>Quais sayajins mataram o frieza em todo Dragon ball?</legend>
+        <input type="checkbox" id="Vegeta" name='Vegeta'></input>
+        <label for='Vegeta'>Vegeta</label>
+        <input type="checkbox" id="Goku" name='Goku'></input>
+        <label for='Goku'>Goku</label>
+        <input type="checkbox" id="Trunks" name='Trunks'></input>
+        <label for='Trunks'>Trunks</label>
+        <input type="checkbox" id="piccolo" name='piccolo'></input>
+        <label for='piccolo'>piccolo</label>
+      </fieldset>
+      <fieldset>
+        <legend>Quem matou o freeza no Z? </legend>
+        <select id='freeza' name="freeza">
+          <option id="Goku" name="Goku">Goku</option>
+          <option id="Trunks" name="Trunks">Trunks</option>
+          <option id="Picollo" name="Picollo">Picollo</option>
+          <option id="Vegeta" name="Vegeta" selected="Vegeta">Vegeta</option>
+        </select>
+      </fieldset>
+      <label id="comentarios" name="comentarios">Comentarios</label>
+      <textarea name="comentarios" id="comentarios" cols='50' rows="10"></textarea>
+    <button for="submit">Submit</button>
+    </form>
+    </main>
+  </body>
+</html>
